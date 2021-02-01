@@ -20,6 +20,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.google.com/?gws_rd=ssl')
 
+WebUI.waitForPageLoad(3, FailureHandling.STOP_ON_FAILURE)
+
 WebUI.setText(findTestObject('Object Repository/input_Sign in_q'), 'hello')
 
 WebUI.click(findTestObject('Object Repository/a_Images'))
