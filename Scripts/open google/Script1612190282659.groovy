@@ -24,5 +24,7 @@ WebUI.setText(findTestObject('Object Repository/input_Sign in_q'), 'hello')
 
 WebUI.click(findTestObject('Object Repository/a_Images'))
 
+WebUI.refresh()
+
 WebUI.closeBrowser()
 
